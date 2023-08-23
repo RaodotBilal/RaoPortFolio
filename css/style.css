@@ -32,6 +32,17 @@ body {
   overflow: hidden;
   position: absolute;
 }
+.notification {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none; /* Hide initially */
+  cursor: pointer;
+}
 .offcanvas #page:after {
   -webkit-transition: 2s;
   -o-transition: 2s;

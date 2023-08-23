@@ -103,6 +103,26 @@
 	
 	};
 
+	// JavaScript for the notification
+document.addEventListener("DOMContentLoaded", function () {
+    var notification = document.getElementById("notification");
+
+    window.addEventListener("scroll", function () {
+        // Adjust the threshold as needed (e.g., 300)
+        if (window.scrollY > 3000 && window.scrollY < 4000) {
+            notification.style.display = "block";
+        } else {
+            notification.style.display = "none";
+        }
+    });
+
+    // You can also add a click event to hide the notification when clicked
+    notification.addEventListener("click", function () {
+        notification.style.display = "none";
+    });
+});
+
+
 	var pieChart = function() {
 		$('.chart').easyPieChart({
 			scaleColor: false,
