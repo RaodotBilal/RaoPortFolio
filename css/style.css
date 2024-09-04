@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-  float: left;
+  float: left ;
   color: #000;
   font-weight: bold;
 }
@@ -1300,5 +1300,51 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
+/* Crops Page */
+/* Additional styles for the Smart Farming Solution page */
+
+/* Crops Project Page Styles */
+#fh5co-header {
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+
+#fh5co-problem-solution,
+#fh5co-technologies,
+#fh5co-how-it-works,
+#fh5co-impact {
+  padding: 50px 0;
+}
+
+#fh5co-about-me {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.flexslider {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.flexslider .slides img {
+  border-radius: 5px;
+}
+
+.fh5co-heading {
+  margin-bottom: 40px;
+}
+
+.fh5co-heading h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.fh5co-heading p {
+  font-size: 16px;
+  color: #666;
+}
+
 
 /*# sourceMappingURL=style.css.map */

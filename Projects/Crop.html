@@ -1,107 +1,187 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Smart Farming Solution - Rao Bilal Ahmed</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Smart Farming Solution for Agriculture Disease Management">
-    <meta name="keywords" content="Smart Farming, Agriculture, Disease Management, AI, Machine Learning">
-    <meta name="author" content="Rao Bilal Ahmed">
-
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="../css/icomoon.css">
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <!-- Modernizr JS -->
-    <script src="../js/modernizr-2.6.2.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Agriculture App(Page is Underdevelopment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        section {
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .intro, .problem, .solution, .technologies, .screenshots, .how-it-works, .impact, .about-me {
+            margin-bottom: 50px;
+        }
+        .technologies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .technologies ul li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .screenshots {
+            text-align: center;
+        }
+        .slider {
+            position: relative;
+            max-width: 100%;
+            margin: 0 ;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+        .slides img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .slider-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .prev, .next {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .app-logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+            header {
+                padding: 30px 0;
+            }
+            .slides img {
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="fh5co-loader"></div>
 
-<div id="page">
-    <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/project-bg.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="display-t js-fullheight">
-                        <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                            <h1>Smart Farming Solution</h1>
-                            <h2>Transforming Agriculture with AI</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Introduction Section -->
+    <header>
+        <h1>Innovative Agriculture App</h1>
+        <p>Transforming agriculture through technology to combat plant diseases and secure global food supply.</p>
+        <img class="app-logo" src="../images/Project2/cropguard.jpg" alt="App Logo">
     </header>
 
-    <div id="fh5co-about" class="animate-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Project Overview</h2>
-                    <p>In an era where technological innovation continues to reshape our world, there is a growing need for sustainable solutions that can address critical challenges. Agriculture, as one of the oldest and most essential human practices, is no exception...</p>
-                </div>
+    <!-- Problem Statement Section -->
+    <section class="problem">
+        <h2>Problem Statement</h2>
+        <p>With the increasing threat of plant diseases, crop yields and food security are at risk. These diseases can devastate entire farms, leaving millions without access to food. There is a pressing need for a solution that identifies and combats plant diseases effectively.</p>
+    </section>
+
+    <!-- Proposed Solution Section -->
+    <section class="solution">
+        <h2>Our Solution</h2>
+        <p>Our app leverages cutting-edge technology to identify plant diseases in real-time. By using artificial intelligence and machine learning, we can analyze plant health, detect diseases early, and suggest immediate solutions to save crops and enhance agricultural productivity.</p>
+    </section>
+
+    <!-- Technologies Used Section -->
+    <section class="technologies">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>Artificial Intelligence (AI) for disease detection</li>
+            <li>Machine Learning for predictive analysis</li>
+            <li>Cloud computing for scalability</li>
+            <li>Mobile application development with Flutter</li>
+        </ul>
+    </section>
+
+    <!-- App Screenshots Section -->
+    <section class="screenshots">
+        <h2>App Screenshots</h2>
+        <div class="slider">
+            <div class="slides">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 1">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 2">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 3">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 4">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 5">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 6">
+                <img src="../images/Project2/cropguard.jpg" alt="Screenshot 7">
+            </div>
+            <div class="slider-nav">
+                <button class="prev" onclick="moveSlides(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlides(1)">&#10095;</button>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="fh5co-features" class="animate-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Features</h3>
-                    <ul>
-                        <li>Real-time disease detection</li>
-                        <li>AI-powered diagnostics</li>
-                        <li>Data-driven recommendations</li>
-                    </ul>
-                </div>
-                <div class="col-md-8">
-                    <h3>Technology Stack</h3>
-                    <p>Python, TensorFlow, Flask, OpenCV, etc.</p>
-                    <h3>Implementation</h3>
-                    <p>Summary of how you implemented the project...</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <p>Our app works in three simple steps:</p>
+        <ol>
+            <li><strong>Data Input:</strong> Users upload photos of affected plants or input farm data.</li>
+            <li><strong>AI Analysis:</strong> Our AI models analyze the plant’s health and identify any signs of disease.</li>
+            <li><strong>Solution & Feedback:</strong> The app provides treatment suggestions, preventive measures, and real-time updates.</li>
+        </ol>
+    </section>
 
-    <div id="fh5co-work" class="fh5co-bg-dark">
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Project Results</h2>
-                    <p>The app was able to accurately detect and manage plant diseases, showing potential for large-scale deployment.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    <!-- Impact Section -->
+    <section class="impact">
+        <h2>Impact of the Solution</h2>
+        <p>By integrating technology into farming practices, our app has the potential to save millions of crops, improve food security, and increase overall farm productivity. It empowers farmers with immediate data and solutions to prevent future outbreaks, ensuring sustainability in agriculture.</p>
+    </section>
 
-<div id="fh5co-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p>&copy; 2024 Rao Bilal Ahmed. All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-</div>
+    <!-- About Me Section -->
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>I am passionate about combining technology with real-world problems,. With a background in software development, I aim to bring innovative solutions that can have a lasting impact on global challenges like food security.</p>
+    </section>
 
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-</div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 - Rao Bilal Ahmed - Innovative Agriculture Solutions</p>
+    </footer>
 
-<!-- jQuery -->
-<script src="../js/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="../js/bootstrap.min.js"></script>
-<!-- Main JS -->
-<script src="../js/main.js"></script>
+    <script>
+        let currentSlide = 0;
+
+        function moveSlides(direction) {
+            const slides = document.querySelector('.slides');
+            const totalSlides = document.querySelectorAll('.slides img').length;
+            currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+            slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+    </script>
+
 </body>
 </html>
